@@ -1,0 +1,22 @@
+{
+    "name": "team-generatorz",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest --color test",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+        "jest": "^24.8.0"
+    }
+}

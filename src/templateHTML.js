@@ -29,10 +29,10 @@ function makeMemberHTML(managers, engineers, interns) {
 
   managers.forEach(manager => {
     const managerHTMl =
-      `<div id="${manager.getName()}-card" class="container member">
-          <div class="member-header">
+      `<div id="${manager.getName()}-card" class="container-md member bg-success p-2">
+          <div class="member-header text-left">
             <h2>${manager.getName()}</h2>
-            <h2 class="">☕  ${manager.getRole()}</h2>
+            <h2 class="">🕵☕  ${manager.getRole()}</h2>
           </div>
           <ul class="list-group">
             <li class="list-group-item">ID: ${manager.getID()}</li>
@@ -46,10 +46,10 @@ function makeMemberHTML(managers, engineers, interns) {
 
   engineers.forEach(engineer => {
     const engineerHTMl =
-      `<div id="${engineer.getName()}-card" class="container member">
-          <div class="member-header">
+      `<div id="${engineer.getName()}-card" class="container-md member bg-success p-2">
+          <div class="member-header text-left">
             <h2>${engineer.getName()}</h2>
-            <h2 class="">☕  ${engineer.getRole()}</h2>
+            <h2 class="">🛠👔  ${engineer.getRole()}</h2>
           </div>
           <ul class="list-group">
             <li class="list-group-item">ID: ${engineer.getID()}</li>
@@ -63,10 +63,10 @@ function makeMemberHTML(managers, engineers, interns) {
 
   interns.forEach(intern => {
     const internHTML =
-      `<div id="${intern.getName()}-card" class="container member">
-          <div class="member-header">
+      `<div id="${intern.getName()}-card" class="container-md member bg-success p-2">
+          <div class="member-header text-left">
             <h2>${intern.getName()}</h2>
-            <h2 class="">📓  ${intern.getRole()}</h2>
+            <h2 class="">🎓👔  ${intern.getRole()}</h2>
           </div>
           <ul class="list-group">
             <li class="list-group-item">ID: ${intern.getID()}</li>
@@ -91,11 +91,13 @@ function generateHTML(contentsHTML) {
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="./style.css" />
-      <title>Team Profile</title>
+      <title>Team Members </title>
     </head>
     <body> 
-    <h1 class="display-4">Team Profile</h1>    
-    <div class="members">
+      <nav> 
+        <h1 class="text-center display-4 p-3 mb-2 bg-warning text-dark">Team Profile Generatorz</h1> 
+      </nav>    
+    <div class="text-center members">
     ${contentsHTML}
     </div>
     </body>

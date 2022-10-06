@@ -90,14 +90,14 @@ function generateHTML(contentsHTML) {
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-      <link rel="stylesheet" href="./style.css" />
+      <link rel="stylesheet" href="../dist/style.css" />
       <title>Team Members </title>
     </head>
     <body> 
       <nav> 
         <h1 class="text-center display-4 p-3 mb-2 bg-warning text-dark">Team Profile Generatorz</h1> 
       </nav>    
-    <div class="text-center members">
+    <div class="text-center members-card">
     ${contentsHTML}
     </div>
     </body>

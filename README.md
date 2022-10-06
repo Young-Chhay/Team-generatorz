@@ -34,5 +34,8 @@ ___
 ## 🌟 [Click me: Live Node.js command-line Demo on Google drive](https://drive.google.com/uc?id=1Z_UMVTGS2Z5vuqEoLvJ9EZCxqq_r3XEz)
 ![Live App](./assets/images/Team-Generatorz.png)
 
+## 🌟HTML generated from command line
+![generatedHTML](./assets/images/htmlSample.JPG)
+
 ---
 ___
